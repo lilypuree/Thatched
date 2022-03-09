@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "thatched:block/cattail_thatch_fluid" }
+  }
+}

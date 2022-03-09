@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "thatched:village_thatched",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 66654882,
+    "spacing": 40,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  }
+}

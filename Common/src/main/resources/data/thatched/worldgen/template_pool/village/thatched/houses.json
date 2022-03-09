@@ -1,0 +1,255 @@
+{
+  "name": "thatched:village/thatch/houses",
+  "fallback": "thatched:village/thatched/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/small_house_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/small_house_2",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/small_house_3",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/small_house_4",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/small_house_5",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "thatched:village/thatched/houses/small_house_6",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/small_house_7",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "thatched:village/thatched/houses/small_house_8",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/medium_house_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/butcher_shop_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/tool_smith_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/fletcher_house_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/shepherds_house_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/armorer_house_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/fisher_cottage_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/tannery_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "thatched:village/thatched/houses/cartographer_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "thatched:village/thatched/houses/library_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/masons_house_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/houses/weaponsmith_1",
+        "processors": "thatched:village/thatched/mossify",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "thatched:village/thatched/houses/large_farm_1",
+        "processors": "thatched:village/thatched/crop_randomizer",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "thatched:village/thatched/houses/small_farm_1",
+        "processors": "thatched:village/thatched/crop_randomizer",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "thatched:village/thatched/houses/animal_pen_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "thatched:village/thatched/houses/animal_pen_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "thatched:village/thatched/houses/animal_pen_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "thatched:village/thatched/houses/meeting_point_4",
+        "processors": "minecraft:mossify_70_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "thatched:village/thatched/houses/meeting_point_5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

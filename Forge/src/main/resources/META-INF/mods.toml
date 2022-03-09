@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mods]] #mandatory
+modId="thatched" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Thatched" #mandatory
+credits="Thanks to Telepathicgrunt for guiding me into the way of structure mods" #optional
+authors="lilypuree" #optional
+description='''
+Villages with thatched roofs from the decorative blocks mod
+More thatch mod compat'''
+
+[[dependencies.thatched]] #optional
+modId="forge" #mandatory
+mandatory=true #mandatory
+versionRange="[40,)" #mandatory
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.thatched]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,)"
+ordering="NONE"
+side="BOTH"

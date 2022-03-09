@@ -1,0 +1,150 @@
+{
+  "name": "thatched:village/thatched/streets",
+  "fallback": "thatched:village/thatched/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/streets/corner_01",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/streets/corner_02",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/streets/corner_03",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "thatched:village/thatched/streets/straight_01",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "thatched:village/thatched/streets/straight_02",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "thatched:village/thatched/streets/straight_03",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "thatched:village/thatched/streets/straight_04",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "thatched:village/thatched/streets/straight_05",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "thatched:village/thatched/streets/straight_06",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/streets/crossroad_01",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "thatched:village/thatched/streets/crossroad_02",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/streets/crossroad_03",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/streets/crossroad_04",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/streets/crossroad_05",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "thatched:village/thatched/streets/crossroad_06",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "thatched:village/thatched/streets/turn_01",
+        "processors": "thatched:village/thatched/path_randomizer",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

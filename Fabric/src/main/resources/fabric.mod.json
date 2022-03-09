@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "thatched",
+  "version": "${version}",
+  "name": "Thatched",
+  "description": "Villages with thatched roofs from the decorative blocks mod\nMore thatch mod compat",
+  "authors": [
+    "lilypuree"
+  ],
+  "contact": {
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "lilypuree.thatched.ThatchedMod"
+    ],
+    "client": [
+      "lilypuree.thatched.ClientInitializer"
+    ],
+    "modmenu": [
+      "lilypuree.thatched.compat.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "thatched.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12",
+    "fabric": ">=0.46.3",
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "decorative_blocks": ">=2.0.0",
+    "cloth-config2": ">=6.0.42"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/H4nvbNF"
+      }
+    }
+  }
+}
+  

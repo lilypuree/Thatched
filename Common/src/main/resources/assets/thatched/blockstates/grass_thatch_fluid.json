@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "thatched:block/grass_thatch_fluid" }
+  }
+}
