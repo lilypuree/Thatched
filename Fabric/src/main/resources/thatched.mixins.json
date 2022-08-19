@@ -3,10 +3,6 @@
   "package": "lilypuree.thatched.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ChunkGeneratorAccessor",
-    "StructureFeatureAccessor",
-    "StructureSettingsAccessor",
-    "ServerLevelMixin"
   ],
   "client": [
   ],

@@ -1,13 +1,13 @@
-package lilypuree.thatched.compat;
-
-
-import com.terraformersmc.modmenu.api.ConfigScreenFactory;
-import com.terraformersmc.modmenu.api.ModMenuApi;
-import me.shedaniel.autoconfig.AutoConfig;
-
-public class ModMenuIntegration implements ModMenuApi {
-    @Override
-    public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        return parent -> AutoConfig.getConfigScreen(FabricConfigs.class, parent).get();
-    }
-}
+//package lilypuree.thatched.compat;
+//
+//
+//import com.terraformersmc.modmenu.api.ConfigScreenFactory;
+//import com.terraformersmc.modmenu.api.ModMenuApi;
+//import me.shedaniel.autoconfig.AutoConfig;
+//
+//public class ModMenuIntegration implements ModMenuApi {
+//    @Override
+//    public ConfigScreenFactory<?> getModConfigScreenFactory() {
+//        return parent -> AutoConfig.getConfigScreen(FabricConfigs.class, parent).get();
+//    }
+//}

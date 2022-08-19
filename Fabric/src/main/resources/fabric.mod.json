@@ -17,21 +17,17 @@
     ],
     "client": [
       "lilypuree.thatched.ClientInitializer"
-    ],
-    "modmenu": [
-      "lilypuree.thatched.compat.ModMenuIntegration"
     ]
   },
   "mixins": [
     "thatched.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12",
-    "fabric": ">=0.46.3",
-    "minecraft": "1.18.x",
+    "fabricloader": ">=0.13",
+    "fabric": ">=0.47",
+    "minecraft": ">=1.18.2",
     "java": ">=17",
-    "decorative_blocks": ">=2.0.0",
-    "cloth-config2": ">=6.0.42"
+    "decorative_blocks": ">=2.1.0"
   },
   "suggests": {
     "another-mod": "*"
