@@ -25,9 +25,9 @@
   "depends": {
     "fabricloader": ">=0.13",
     "fabric": ">=0.47",
-    "minecraft": ">=1.18.2",
+    "minecraft": ">=1.19",
     "java": ">=17",
-    "decorative_blocks": ">=2.1.0"
+    "decorative_blocks": ">=3.0.0"
   },
   "suggests": {
     "another-mod": "*"

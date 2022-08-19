@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '0.10-SNAPSHOT' apply false
+    id 'fabric-loom' version '0.12-SNAPSHOT' apply false
     id "com.matthewprenger.cursegradle" version "$cursegradle_version" apply false
 }
 
@@ -69,6 +69,8 @@ subprojects {
                 changelogType = 'markdown'
                 changelog = changelogFile
                 addGameVersion project.minecraft_version
+                addGameVersion 1.19
+                addGameVersion 1.19.1
                 addGameVersion project.name
                 mainArtifact(isForge ? jar : remapJar)
                 relations {

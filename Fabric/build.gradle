@@ -23,20 +23,22 @@ dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"
     mappings loom.layered() {
         officialMojangMappings()
-        parchment("org.parchmentmc.data:parchment-1.18.1:2022.03.06")
+        parchment("org.parchmentmc.data:parchment-${parchment_mc_version}:${parchment_version}")
     }
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
 
-    modCompileOnly "me.shedaniel:RoughlyEnoughItems-fabric:${rei_version}"
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:${rei_version}"
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:${rei_version}"
     modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${rei_version}"
+    modRuntimeOnly "dev.architectury:architectury-fabric:${architectury}"
+
 //    modRuntimeOnly "curse.maven:mostructures-378266:3567077"
 //    modRuntimeOnly "curse.maven:omegaconfig-558000:3612206"
     implementation project(":Common")
 
-    modImplementation "curse.maven:decorative-blocks-362528:3681918"
+    modImplementation "curse.maven:decorative-blocks-362528:3941637"
 //    modApi "me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}"
-//    modImplementation "curse.maven:modmenu-308702:3668801"
 
 
 }
